@@ -1,6 +1,6 @@
 # hello-world
 Just another repository
 
-Hi there! I'm preqs!
+Hi there! I'm retest672!
 
-i forked a repository for the first time and got my pull request accepted.
+I normally download stuff from github, but i'm doing this, i created a repository.
