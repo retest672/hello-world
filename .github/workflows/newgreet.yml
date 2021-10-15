@@ -5,6 +5,9 @@ name: Greet new contributors
 # Controls when the action will run. Workflow runs when manually triggered using the UI
 # or API.
 on:
+  schedule:
+  - cron: '30 * * * *'
+
   workflow_dispatch:
     # Inputs the workflow accepts.
     inputs:
