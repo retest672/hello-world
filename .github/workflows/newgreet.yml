@@ -6,7 +6,7 @@ name: Greet new contributors
 # or API.
 on:
   schedule:
-  - cron: '30 * * * *'
+  - cron: '15 2 * * *'
 
   workflow_dispatch:
     # Inputs the workflow accepts.
