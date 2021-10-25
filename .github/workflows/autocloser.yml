@@ -14,7 +14,7 @@ jobs:
           [
             {
               "type": "title",
-              "regex": ".*compile*",
-              "message": "@${issue.user.login} this issue was automatically closed because we do not offer support for compiling Kade Engine! Please read the https://kadedev.github.io/Kade-Engine/building page"
+              "regex": ".*joke*",
+              "message": "@${issue.user.login} this issue was automatically closed because we do not offer support for jokes! Please read more on the https://docs.github.com/en/github/site-policy/github-community-guidelines page"
             }
           ]
