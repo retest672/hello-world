@@ -6,7 +6,7 @@ jobs:
   autoclose:
     runs-on: ubuntu-latest
     steps:
-    - name: Autoclose issues
+    - name: Autoclose issues with jokes
       uses: arkon/issue-closer-action@v3.4
       with:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
@@ -18,6 +18,11 @@ jobs:
               "message": "@${issue.user.login} this issue was automatically closed because we do not offer support for jokes! Please read more on the https://docs.github.com/en/github/site-policy/github-community-guidelines page"
             }
           ]
+    - name: Autoclose issues with threats
+      uses: arkon/issue-closer-action@v3.4
+      with:
+        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        rules: |
           [
             {
               "type": "title",
