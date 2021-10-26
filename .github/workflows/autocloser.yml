@@ -30,6 +30,7 @@ jobs:
               "message": "@${issue.user.login} this issue was automatically closed because we DEFINITELY do not offer support for threats! Please read more on the https://docs.github.com/en/github/site-policy/github-community-guidelines page"
             }
           ]
+          
           [
             {
               "type": "title",
