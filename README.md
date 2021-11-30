@@ -5,7 +5,7 @@ Hi there! I'm retest672!
 
 I normally download stuff from github, but i'm doing this, i created a repository.
 
-[![forthebadge](null)](https://github.com/retest672/hello-world/actions/workflows/blank.yml)
+[![CI](https://github.com/retest672/hello-world/actions/workflows/blank.yml/badge.svg)](https://github.com/retest672/hello-world/actions/workflows/blank.yml)
 
 Scheduled running scripts:
 
